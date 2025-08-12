@@ -1,0 +1,10 @@
+{
+  "name": "moontv-cordova",
+  "version": "1.0.0",
+  "description": "Cordova Android TV app for MoonTV",
+  "scripts": {
+    "build": "cordova build android"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
