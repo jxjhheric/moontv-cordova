@@ -34,7 +34,7 @@ jobs:
           ndk: 25.1.8937393
 
       - name: Install Cordova
-        run: npm install -g cordova@latest
+        run: npm install -g cordova@8.14 
 
       - name: Install dependencies
         run: npm install
