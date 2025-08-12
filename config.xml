@@ -16,13 +16,13 @@
   <preference name="Orientation" value="landscape" />
 
   <!-- Android TV 兼容 -->
-  <platform name="android">
-    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/uses-feature">
+ <platform name="android">
+    <config-file parent="/manifest" target="AndroidManifest.xml" mode="merge">
       <uses-feature android:name="android.software.leanback" android:required="false" />
-    </edit-config>
-    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/uses-feature">
+    </config-file>
+    <config-file parent="/manifest" target="AndroidManifest.xml" mode="merge">
       <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
-    </edit-config>
+    </config-file>
   </platform>
-
+  
 </widget>
